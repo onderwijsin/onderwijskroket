@@ -1,7 +1,7 @@
 // Function to replace text in text nodes
 function replaceText(node) {
     if (node.nodeType === Node.TEXT_NODE) {
-        node.textContent = node.textContent.replace(/onderwijsloket/gi, 'Onderwijskroket');
+        node.textContent = node.textContent.replace(/onderwijsloket/gi, '💕 Onderwijskroket 💕');
     } else {
         node.childNodes.forEach(replaceText);
     }
